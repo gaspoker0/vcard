@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ma Carte NFC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: white;
+      padding: 2em;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      max-width: 400px;
+      text-align: center;
+    }
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1em;
+    }
+    h1 {
+      margin: 0.2em 0;
+    }
+    p {
+      margin: 0.3em 0;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.7em 1.2em;
+      background: #1e88e5;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    a.button:hover {
+      background: #1565c0;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/100" alt="Photo de profil" class="avatar"/>
+    <h1>Ton Prénom Nom</h1>
+    <p><strong>Téléphone :</strong> <a href="tel:+221771234567">+221 77 123 45 67</a></p>
+    <p><strong>Email :</strong> <a href="mailto:exemple@email.com">exemple@email.com</a></p>
+    <p><strong>WhatsApp :</strong> <a href="https://wa.me/221771234567" target="_blank">Chat WhatsApp</a></p>
+    <p><strong>Instagram :</strong> <a href="https://instagram.com/tonprofil" target="_blank">@tonprofil</a></p>
+    <a class="button" href="https://www.linkedin.com/in/tonprofil" target="_blank">LinkedIn</a>
+  </div>
+</body>
+</html>
